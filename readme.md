@@ -10,7 +10,7 @@
 
 ![name](https://img.shields.io/badge/Vimal--Kumar-lightgrey)
 
-## Word COunt App [Live Link](https://name-conversion-js.netlify.app/)
+## Word Count App [Live Link](https://wordcounttappp.netlify.app/)
 
 - Skills Gained in this project
 
