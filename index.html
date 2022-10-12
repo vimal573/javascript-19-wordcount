@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word count app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>World Count App</h1>
+      <textarea id="input" cols="30" rows="10" oninput="count()"></textarea>
+      <h3>World Count :</h3>
+      <p id="output">Input Box Is Empty... Start Typing</p>
+    </div>
+  </body>
+  <script>
+    function count() {
+      const wordCount = document.getElementById("input").value.trim().length;
+
+      document.getElementById(
+        "output"
+      ).innerHTML = `<h1 id="output">${wordCount}</h1>`;
+    }
+  </script>
+</html>
